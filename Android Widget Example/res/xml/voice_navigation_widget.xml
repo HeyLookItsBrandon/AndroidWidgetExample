@@ -1,0 +1,15 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="40dp" android:minHeight="40dp"
+
+    android:updatePeriodMillis="5000"
+
+    android:previewImage="@android:drawable/ic_lock_idle_alarm"
+
+    android:initialLayout="@layout/voice_navigation_widget"
+    android:initialKeyguardLayout="@layout/voice_navigation_lockscreen_widget"
+
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen|keyguard">
+</appwidget-provider>
+
+<!-- android:configure="example.widget.provider.VoiceNavigationWidgetConfigurationActivity" -->
